@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d5ffd9;
+  margin: 0;
+  padding: 5px;
+  direction: rtl;
+  max-width: fit-content;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
+  width: 100%;
+}
+
+.button {
+  direction: rtl;
+  font-size: 15px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: lightgreen;
+  color: darkgreen;
+  transition: background-color 0.3s;
+  margin-top: 5px;
+  width: 100%;
+}
+.button:hover {
+  background-color: limegreen;
+}
+
+.button:active {
+  transform: scale(0.95);
+  transition: transform 0.3s;
+}

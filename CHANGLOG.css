@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:#d5ffd9;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.frame {
+    background-color: lightgreen;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 30%;
+    justify-content: right;
+    text-align: right;
+}
+
+.h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    justify-content: center;
+    color: darkgreen;
+}
+
+.bullet{
+    direction: rtl;
+    text-align: right;
+    font-size: 30px;
+    color: darkgreen;
+}
+
+.version{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    background-color:orange; 
+    border-radius:10px;
+}
